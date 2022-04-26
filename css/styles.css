@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-nav-bar {
+    justify-content: space-between;
+    background-color: rgb(177, 177, 177);
+}
+
+.btn-outline-success {
+    background-color: rgb(177, 177, 177);
+}
+
+.btn-outline-success i {
+    color: #fff;
+}
+
+.btn-footer {
+    background-color: red;
+    color: #fff;
+}
+
+.d-flex {
+    margin-right: 10px;
+}
+
+#logo {
+    height: 100px;
+}
+
+.telephone {
+    margin-left: 10px;
+}
+
+.input-group {
+    width: 100%;
+
+}
+
+.form-outline {
+    width: 60%;
+}
+
+.input-group>.form-outline+button {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40px;
+    background-color: red;
+}
+
+.input-group>.form-outline+button p {
+    color: #fff;
+
+}
+
+div>ul>li .active {
+    border: 1px solid grey;
+    box-shadow: 0px 0px 2px 2px;
+    border-radius: 10%;
+}
+
+div>ul>li.active {
+    border: 1px solid grey;
+    box-shadow: 0px 0px 2px 2px;
+    border-radius: 10%;
+}
+
+.carousel-inner {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+body {
+    background-image: url("/images/background-clouds.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-indicators button {
+
+    border-radius: 50%;
+}
+
+.info-carousel {
+    color: red;
+    margin-top: 70%;
+    margin-left: 70%;
+    border: 1px solid green;
+}
+
+.carousel-caption {
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.fa-ul {
+    text-align: center;
+
+    margin: 0;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    height: 50px;
+    margin-bottom: -25px;
+    background-color: rgba(153, 153, 153, 0.466);
+
+}
+
+.container-title h5{
+    padding-top: 20px;
+}
+
+.second-price {
+    color: #fff;
+}
+
+.fa-ul>li:nth-child(1) {
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    padding: 30px 0px 30px 0;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    width: 50%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.test {
+    width: 100%;
+    background-color: rgba(153, 153, 153, 0.466);
+}
+
+.spacer {
+    margin-top: 5%;
+    
+}
