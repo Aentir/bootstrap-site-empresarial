@@ -1,0 +1,4 @@
+@mixin equals_margins-mixin($margin) {
+    margin-top: $margin;
+    margin-bottom: $margin;
+}

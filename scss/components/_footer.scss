@@ -1,0 +1,24 @@
+@use '../abstracts/background-footer-color' as *;
+@use '../abstracts/background-subscribe-color' as *;
+
+footer {
+    background-color: $background-color;
+}
+
+.form-outline {
+    width: 60%;
+}
+
+.input-group>.form-outline+button {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40px;
+    background-color: $red;
+}
+
+.input-group>.form-outline+button p {
+    color: #fff;
+
+}
+

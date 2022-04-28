@@ -1,0 +1,13 @@
+@use '../tools/index' as *;
+@use '../abstracts/index' as *;
+
+.container .row .col {
+    @include equals_margins-mixin(50px);
+    @include equals_paddings_mixin(50px);
+    @include margins-L-R-auto-mixin(auto);
+
+    .card-body {
+        background-color: $white;
+        padding: 10px;
+    }
+}

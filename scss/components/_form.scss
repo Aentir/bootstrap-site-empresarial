@@ -1,0 +1,10 @@
+@use '../tools/./' as *;
+@use '../abstracts/background-contact-form' as *;
+
+.form-container {
+    width: 50%;
+    @include margins-L-R-auto-mixin(auto);
+    @include equals_margins-mixin(30px);
+    background-color: $white-transparent;
+    padding: 15px;
+}

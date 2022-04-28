@@ -1,0 +1,4 @@
+@mixin margins-L-R-auto-mixin ($margin) {
+    margin-right: $margin;
+    margin-left: $margin;
+}
